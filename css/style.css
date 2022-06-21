@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+main{
+    /* ele deixa td lado a lado */
+    display:flex;
+    /* txt no centro */
+    text-align: center;
+    /* itens no centro (imagens) etc */
+    align-items: center;
+    /* para ficar um embaixo do outro, os itens */
+    flex-direction: column;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+input{
+    /* para ficar uma caixa */
+    box-sizing: border-box;
+    /* do tamanho do seu elemento pai */
+    /* vai ficar 100% de 50% */
+    width:100%;
+    height: 40px;
+    /* top, right, bottom, left */
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+#form{
+    width:50%;
+}
+#botao{
+    background-color: green;
+    color:white;
+    border-radius:2px;
+    border:none;
+    width:100%;
+    height:40px;
+    /* caixa */
+    box-sizing: border-box;
+}
+#botao:hover{
+    cursor:pointer;
+    background-color: rgb(0,82,0);
+}
+h3{
+    font-family:sans-serif;
+}
+footer{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+}
